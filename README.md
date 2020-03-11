@@ -55,5 +55,27 @@ Q3. What are libraries (in this context)? How are they helpful?
 
 ## Exercise 2
 
+This exercise will add WiFi connection and MQTT publishing.
+
+### Instructions
+
+1. Open the [ds18b20-to-mqtt](arduino/ds18b20-to-mqtt/ds18b20-to-mqtt.ino) sketch and read through the code. Try to understand what each part of the sketch is doing.
+
+2. The IP address of the MQTT broker is "192.168.4.1". Update the sketch settings to use this IP address.
+
+3. Run the sketch.
+
+4. Open the serial monitor and check that the sensor is working correctly, that the device has connected to the MQTT broker and is publishing messages. ![serial monitor button](assets/serial-monitor-button.png)
+
+5. Open an MQTT monitor. There is one available on the Moodle page called "MQTT Explorer".
+
+6. Connect the MQTT monitor to the broker being used.
+
+7. Look at the messages being generated under the "mqtt-lab" topic.
+
+Q4. What can you say about the messages being generated?
+
+Q5. What problems can you see?
+
 ## Exercise 3
 
