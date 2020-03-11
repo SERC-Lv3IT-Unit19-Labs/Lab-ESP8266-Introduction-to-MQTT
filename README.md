@@ -79,3 +79,8 @@ Q5. What problems can you see?
 
 ## Exercise 3
 
+### Instructions
+
+1. Together with the rest of the class, define standards for topics and messages that would allow all sensor readings to be identifable.
+
+2. Impliment the standards in your sketch.
