@@ -61,13 +61,17 @@ This exercise will add WiFi connection and MQTT publishing.
 
 ### Instructions
 
-1. Open the [ds18b20-to-mqtt](arduino/ds18b20-to-mqtt/ds18b20-to-mqtt.ino) sketch and read through the code. Try to understand what each part of the sketch is doing.
+1. Arduino IDE: Open the [ds18b20-to-mqtt](arduino/ds18b20-to-mqtt/ds18b20-to-mqtt.ino) sketch and read through the code. Try to understand what each part of the sketch is doing.
 
-2. The IP address of the MQTT broker is "192.168.4.1". Update the sketch settings to use this IP address.
+   Micropython: Open the [temp_to_mqtt](micropython/temp_to_mqtt.py) script and read through the code. Try to understand what each part of the sketch is doing.
 
-3. Run the sketch.
+2. The IP address of the MQTT broker is "192.168.4.1". Update the sketch / script settings to use this IP address.
 
-4. Open the serial monitor and check that the sensor is working correctly, that the device has connected to the MQTT broker and is publishing messages. ![serial monitor button](assets/serial-monitor-button.png)
+3. Arduino IDE: Run the sketch.
+
+    Micropython: Upload the script and the `libs` folder
+
+4. Open the serial monitor and check that the sensor is working correctly, that the device has connected to the MQTT broker and is publishing messages.
 
 5. Open an MQTT monitor. There is one available on the Moodle page called "MQTT Explorer".
 
