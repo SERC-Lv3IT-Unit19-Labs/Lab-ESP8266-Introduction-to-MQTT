@@ -43,9 +43,11 @@ First, we will build and test a circuit using the temperature sensor.
 
 2. Make sure the temperature sensor is wired the correct way round!
 
-3. Open the [ds18b20-simple](arduino/ds18b20-simple/ds18b20-simple.ino) sketch and run it.
+3. Arduino IDE: Open the [ds18b20-simple](arduino/ds18b20-simple/ds18b20-simple.ino) sketch and run it.
 
-4. Open the serial monitor and check that the sensor is working correctly. ![serial monitor button](assets/serial-monitor-button.png)
+   Micropython: Upload the `temp_readings.py` and `lib` folder to the D1 mini and run the `temp_readings.py` file.
+
+4. Open the serial monitor and check that the sensor is working correctly.
 
 Q1. What cable carries the data?
 
